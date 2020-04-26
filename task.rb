@@ -6,7 +6,8 @@ def q1
 
   # 以下に回答を記載
 
-  names.push("斉藤")
+  # names.push("斉藤")
+  names << ("斉藤")
 
   names.each do |name|
  puts name
@@ -18,14 +19,15 @@ def q2
   array2 = ["bird", "bat", "tiger"]
 
   # 以下に回答を記載
-
+  array = array1 + array2
+  puts array
 end
 
 def q3
   numbers = [1, 5, 8, 10, 2, 3, 2, 3, 3, 1, 4, 5, 9]
 
   # 以下に回答を記載
-
+  puts numbers.count(3)
 end
 
 def q4
