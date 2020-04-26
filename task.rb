@@ -6,6 +6,11 @@ def q1
 
   # 以下に回答を記載
 
+  names.push("斉藤")
+
+  names.each do |name|
+ puts name
+  end
 end
 
 def q2
